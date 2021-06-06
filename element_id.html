@@ -4,13 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>name属性をキーに要素を取得</title>
 </head>
 <body>
-  <p id="result">pタグの文字列です．</p>
+  <div>要素1(div)</div>
+  <p>要素2(p)</p>
+  <div>要素3(div)</div>
+  <span>要素4(span)</span>
+  <div>要素5(div)</div>
 
-  <!-- クリックされたら，element_jsのshow()関数を実行 -->
-  <input type="button" value="取得" onclick="show()">
-  <script src="js/element_id.js"></script>
+<input type="button" value="取得" onclick="showElements()">
+
+  <script src="js/element_tag_name.js"></script>
 </body>
 </html>
